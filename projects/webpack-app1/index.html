@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Login template 1">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript,SASS,GITHUB,WEBPACK,LOGIN,TEMPLATE,THEME,NODEJS">
+	<meta name="author" content="Abhay Pai">
+	<link rel="icon" href="./frontend/public/images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="./frontend/public/images/favicon.ico" type="image/x-icon">
+	<title>WebPack App 1 | Skeleton</title>
+	<script type="text/javascript">
+		function displayError() {
+			var anchorObject = createAnchor();
+
+			return document.body.appendChild(anchorObject);
+		}
+
+		function createAnchor() {
+			var anchor = document.createElement("a");
+			anchor.innerText = "Please check the documentation";
+			anchor.setAttribute("href", "https://github.com/AbhayPai/webpack-app1/");
+			anchor.setAttribute("target", "_blank");
+			emptyBody();
+
+			return anchor;			
+		}
+
+		function emptyBody(){
+			return document.body.innerText = "";
+		}
+	</script>
+	<link rel="stylesheet" type="text/css" href="./frontend/public/css/index.css" onerror="displayError();">
+</head>
+<body>
+	<h1>Webpack App1 created for skeleton|base purpose.</h1>
+	<script src="./frontend/public/js/index.js" onerror="displayError();"></script>
+</body>
+</html>

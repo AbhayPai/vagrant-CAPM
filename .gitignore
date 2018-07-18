@@ -1,0 +1,5 @@
+.vagrant
+projects/webpack-app1/frontend/node_modules/*
+projects/webpack-app1/frontend/public/css/*.css
+projects/webpack-app1/frontend/public/js/*.js
+projects/webpack-app1/frontend/public/images/*.ico

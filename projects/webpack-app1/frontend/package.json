@@ -1,0 +1,39 @@
+{
+  "name": "webpack-app1",
+  "version": "1.0.0",
+  "description": "Created a Webpack App using sass js webpack. This is base skeleton of webpack modular approach",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --progress --colors --watch",
+    "build": "webpack --progress --colors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AbhayPai/webpack-app1"
+  },
+  "keywords": [
+    "login",
+    "sass",
+    "js",
+    "webpack"
+  ],
+  "author": "Abhay Pai",
+  "license": "ISC",
+  "devDependencies": {
+    "ajv": "^6.5.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.19.1",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^3.12.0"
+  },
+  "dependencies": {}
+}

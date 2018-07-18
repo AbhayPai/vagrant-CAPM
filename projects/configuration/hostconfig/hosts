@@ -1,0 +1,3 @@
+# vagrant CAPM
+192.168.100.0 	www.wdscamp.local wdscamp.local
+192.168.100.0 	www.webpack-app1.local webpack-app1.local
